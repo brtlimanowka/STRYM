@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .9em;
+    line-height: 150%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    background-color: #9e9e9e;
+    border: 1px black solid;
+}
+
+.btn {
+    background-color: #ddd;
+    margin: 5px 0;
+    width: 120px;
+    padding: 0 10px;
+    box-shadow: 2px 2px 0 rgb(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.filter {
+    background-color: #ffffff;
+}
+
+.active, .filter:hover, .reset:hover {
+    background-image: none;
+    background-color: #607d8b;
+}
+
+.reset {
+    background-color: #ff5722;
+}

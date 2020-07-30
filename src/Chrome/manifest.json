@@ -1,0 +1,24 @@
+{
+	
+	"manifest_version": 2,
+	"name": "STRYM",
+	"version": "0.6",
+	
+	"description": "Filters RateYourMusic's custom charts' results to only show streamable albums. Icon by Flatart: https://www.iconfinder.com/Flatart",
+	
+	"permissions": ["tabs", "activeTab", "storage"],
+	
+	"browser_action": {
+		"default_icon": "icons/note.png",
+		"default_title": "STRYM",
+		"default_popup": "popup/popup.html"
+	},
+	
+	"content_scripts": [
+		{
+			"matches":["*://rateyourmusic.com/*"],
+			"js": ["content_scripts/filter.js"]
+		}
+	]
+	
+}
