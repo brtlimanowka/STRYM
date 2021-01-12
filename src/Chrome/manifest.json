@@ -2,7 +2,7 @@
 	
 	"manifest_version": 2,
 	"name": "STRYM",
-	"version": "0.6",
+	"version": "0.7",
 	
 	"description": "Filters RateYourMusic's custom charts' results to only show streamable albums. Icon by Flatart: https://www.iconfinder.com/Flatart",
 	
