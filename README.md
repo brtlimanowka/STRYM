@@ -1,17 +1,18 @@
 # STRYM
 ## A RateYourMusic Plugin
-### Current version: `0.6`
+### Current version: `0.7`
 ### Browsers supported:
 • Chrome `79.0`: [download](https://chrome.google.com/webstore/detail/strym/dipcgfaakfkmnbechljhebgeaiphlegf)
 
 • Brave `1.2.42`: [download](https://chrome.google.com/webstore/detail/strym/dipcgfaakfkmnbechljhebgeaiphlegf)
 
-• Firefox `69.0`: [download](https://addons.mozilla.org/firefox/addon/strym/)
+• Firefox `84.0`: [download](https://addons.mozilla.org/firefox/addon/strym/)
 
 ### Description:
 * Adds a browser popup menu that allows additional filtering of RateYourMusic's custom charts; the filtering will show only results that are streamable on selected services (Apple Music, Bandcamp, SoundCloud, Spotify, YouTube)
 ### Version history:
 ```
+0.7:    Update selectors for new RYM layout
 0.6:    Update icon classes
         Minor refactoring
 0.5:    Clearing the filter persists between pages

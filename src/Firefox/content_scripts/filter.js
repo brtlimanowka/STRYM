@@ -1,5 +1,5 @@
 (function() {
-  let rows = document.getElementsByTagName("tr")
+  let rows = document.querySelectorAll(".topcharts_itembox.chart_item_release")
   if (window.hasRun) {
     return
   }
@@ -9,14 +9,14 @@
       showAllRows()
       let streamingService = document.getElementsByClassName(iconClass)
       for (let row of rows) {
-        row.hidden = true
+        row.style.display = "none"
       }
       for (let instance of streamingService) {
-        instance.parentElement.parentElement.parentElement.parentElement.hidden = false
+        instance.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = ""
         if (document.URL.includes("charts")) {
           for (let row of rows) {
             if (row.childElementCount === 1) {
-              row.hidden = false
+              row.style.display = ""
             }
           }
         }
@@ -26,7 +26,7 @@
   }
   function showAllRows() {
     for (let row of rows) {
-      row.hidden = false
+      row.style.display = ""
     }
   }
   function saveOptionsFilter(iconClass) {
